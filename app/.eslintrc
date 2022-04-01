@@ -1,0 +1,10 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {
+    "my-eslint-rules/async-func-name": "error"
+  },
+  "plugins": ["my-eslint-rules"]
+}

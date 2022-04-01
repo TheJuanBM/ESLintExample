@@ -1,0 +1,20 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "App Example",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "nodemon \"src/index.ts\" --exec \"ts-node\" src/index.ts -e ts",
+    "lint": "eslint --ext src/**/*.ts"
+  },
+  "author": "TheJuanBM",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-plugin-my-eslint-rules": "file:../my-eslint-rules",
+    "nodemon": "^2.0.15"
+  }
+}
